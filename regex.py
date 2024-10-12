@@ -29,4 +29,6 @@ if bool(reg_email.match(user_mail)) is True:
 else:
     print("Ввод некорректен! Повторите ввод данных!\n")
 
+print("Хочу создать конфликт!")
+
 print("Хочу решить конфликт!")
