@@ -22,3 +22,9 @@ if bool(reg_phone.match(user_phone)) is True:
     print("Телефон принят!")
 else:
     print("Ввод некорректен! Повторите ввод данных!\n")
+
+user_mail = input("Введите email пользователя на яндексе: ")
+if bool(reg_email.match(user_mail)) is True:
+    print("email принят!")
+else:
+    print("Ввод некорректен! Повторите ввод данных!\n")
